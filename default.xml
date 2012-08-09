@@ -105,5 +105,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="master" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
   <project path="sdk" name="platform/sdk" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
 
 </manifest>
