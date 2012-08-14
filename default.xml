@@ -14,9 +14,10 @@
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" repo="b2g" revision="jb-b2g">
+  <project path="build" name="platform_build" remote="b2g" revision="jb-b2g">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
   <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="b2g" revision="master" />
   <project path="gecko" name="mozilla-central" remote="mozilla" revision="master" />
