@@ -24,6 +24,8 @@
           fetch="git://gitorious.org/android-goodies/" />
   <remote name="romaxa-github"
           fetch="git://github.com/romaxa/" />
+  <remote name="danielcbit-github"
+          fetch="git://github.com/danielcbit/" />
   <remote name="android-romaxa-gitorius"
           fetch="git://git.gitorious.org/~romaxa/android-n900/" />
   <default revision="refs/tags/android-4.0.4_r2.1"
@@ -35,7 +37,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="romaxa-github" revision="ics-n9" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
